@@ -1,0 +1,49 @@
+
+
+.container{
+    font-size: 16px;
+    height: 100vh;
+    width: 100vw;
+    background: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    height: 80%;
+    width: 80%;
+    background: linear-gradient(to right bottom, #f9f9f9 0%, #f6f6f6 100%);
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.navigation-options{
+    display: flex;
+    
+    & li{
+        list-style-type: none;
+        padding: 1rem;
+        margin: 0.5rem;
+
+    }
+}
+
+.active{
+     background: black;
+     color: white;
+}
+
+.app-name{
+    text-transform: capitalize;
+    padding: 1rem;
+}
