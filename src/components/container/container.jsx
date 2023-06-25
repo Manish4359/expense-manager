@@ -1,6 +1,7 @@
 import React from "react";
 import './container.scss';
 import Overview from "../overview/overview";
+import AllTransactions from "../transactions/allTransactions";
 
 const Container=()=>{
     return <div className="container">
@@ -11,14 +12,12 @@ const Container=()=>{
             <span className="app-name">extrack</span>
 
             <ul className="navigation-options">
-                <li className="active">overview</li>
-                <li>all expenses</li>
-                <li>calendar</li>
+                <li >overview</li>
+                <li className="active">all Transactions</li>
                 <li>profile</li>
             </ul>
         </div>
-        <Overview/>
-
+        <AllTransactions/>
     </div>
     </div>
 }

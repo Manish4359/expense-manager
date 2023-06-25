@@ -1,0 +1,101 @@
+.all-transactions{
+    display: flex;
+    height: 90%;
+    overflow-y: hidden;
+}
+
+.transactions{
+    width: 60%;
+}
+
+
+
+.transaction{
+    padding: 1rem;
+    margin: 1rem;
+    //border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background: white;
+
+}
+
+.transaction-image{
+    height: 5rem;
+    margin-right: 1rem;
+}
+
+.transaction-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 60%;
+
+}
+
+.transaction-title{
+    font-weight: 700;
+}
+
+.transaction-price{
+    padding: 1rem;
+    width: 100%;
+    margin: 0 1rem;
+    flex-flow: 1;
+    margin-left: 1rem;
+    text-align: right;
+}
+
+.transaction-edit{
+    margin-right: 1rem;
+    & img{
+        height: 2.5rem;
+    }
+}
+
+.transaction-delete{
+
+    & img{
+        height: 2.5rem;
+    }
+}
+
+.transaction-by-cat{
+    padding: 1rem;
+    height: 100%;
+    width: 40%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categories{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+}
+.category{
+    width: fit-content;
+    background: white;
+    padding: 1rem 2rem;
+    display:flex;
+    flex-direction: column;
+    margin: 1rem;
+    box-shadow: 1px 2px 5px rgb(235, 235, 235);
+    border-radius: 10px;
+    &>img{
+        height: 10rem;
+    }
+}
+.category-type{
+    margin-top: 0.5rem;
+}
+
+.category-bill{
+    margin-top: 1rem;
+
+}
